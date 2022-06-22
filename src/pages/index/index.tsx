@@ -51,7 +51,7 @@ export default class Index extends Component {
     this.setState({
         questionList
     },() => {
-        console.log("questionList", this.state.questionList);
+        console.log("questionList数据", this.state.questionList);
     })
   }
   reduceLike (data) {
